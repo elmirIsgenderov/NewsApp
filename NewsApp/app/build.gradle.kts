@@ -82,6 +82,5 @@ dependencies {
 
     // Glide.
     implementation(libs.glide)
-    //noinspection KaptUsageInsteadOfKsp
     kapt(libs.compiler)
 }
