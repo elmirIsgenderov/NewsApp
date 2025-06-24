@@ -51,36 +51,36 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    // Architectural Components.
+    // Architectural Components
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
 
-    // Room.
+    // Room
     implementation(libs.androidx.room.runtime)
     //noinspection KaptUsageInsteadOfKsp
     kapt(libs.androidx.room.compiler)
 
 
-    // Kotlin Extensions and Coroutines support for Room.
+    // Kotlin Extensions and Coroutines support for Room
     implementation(libs.androidx.room.ktx)
 
-    // Coroutines.
+    // Coroutines
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
 
-    // Coroutine Lifecycle Scopes.
+    // Coroutine Lifecycle Scopes
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
 
-    // Retrofit.
+    // Retrofit
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
     implementation(libs.logging.interceptor)
 
-    // Navigation Components.
+    // Navigation Components
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
 
-    // Glide.
+    // Glide
     implementation(libs.glide)
     kapt(libs.compiler)
 }
